@@ -5,21 +5,21 @@
 class Puzzletea < Formula
   desc "Terminal-based puzzle game collection built with Bubble Tea"
   homepage "https://github.com/FelineStateMachine/puzzletea"
-  version "1.2.0"
+  version "1.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/FelineStateMachine/puzzletea/releases/download/v1.2.0/puzzletea_1.2.0_darwin_amd64.tar.gz"
-      sha256 "fe6eab8b98d29fcca41bc0580e4f4bc7671ce7a8cd7e331264a9711904795646"
+      url "https://github.com/FelineStateMachine/puzzletea/releases/download/v1.3.0/puzzletea_1.3.0_darwin_amd64.tar.gz"
+      sha256 "e9a6287e3b3f7d236d09b62ae3ce33271c2c5a0e824c03464d5ac26892c1b354"
 
       def install
         bin.install "puzzletea"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/FelineStateMachine/puzzletea/releases/download/v1.2.0/puzzletea_1.2.0_darwin_arm64.tar.gz"
-      sha256 "ecf3e6772ef25c6afb9016b74585d50b68d97992df50d4d6a0bfdf2b6c95eca3"
+      url "https://github.com/FelineStateMachine/puzzletea/releases/download/v1.3.0/puzzletea_1.3.0_darwin_arm64.tar.gz"
+      sha256 "165a7b351769a71b6777d73f707954d8e1eca5d90eb7acbb2d94f583023c1728"
 
       def install
         bin.install "puzzletea"
@@ -29,15 +29,15 @@ class Puzzletea < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/FelineStateMachine/puzzletea/releases/download/v1.2.0/puzzletea_1.2.0_linux_amd64.tar.gz"
-      sha256 "5b15eea977f4613ed8b45ee8d8dd9ea7762d0a717f09f9d9ce653b614586329e"
+      url "https://github.com/FelineStateMachine/puzzletea/releases/download/v1.3.0/puzzletea_1.3.0_linux_amd64.tar.gz"
+      sha256 "db4939161541dfcae2e1c5ac6b220109e18d1b78cb4c976598c6fa1ab2f1543b"
       def install
         bin.install "puzzletea"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/FelineStateMachine/puzzletea/releases/download/v1.2.0/puzzletea_1.2.0_linux_arm64.tar.gz"
-      sha256 "60a7291cfd15e108f4cae55ea2e8caef94b729805f916d863678c14da4d6247a"
+      url "https://github.com/FelineStateMachine/puzzletea/releases/download/v1.3.0/puzzletea_1.3.0_linux_arm64.tar.gz"
+      sha256 "7a2f3e1e7aa90dc70c011e5cdc2ee27e6fb9f6ade9e83f85192b32cced17ad8e"
       def install
         bin.install "puzzletea"
       end
