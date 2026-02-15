@@ -11,7 +11,7 @@ class Puzzletea < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/FelineStateMachine/puzzletea/releases/download/v1.3.0/puzzletea_1.3.0_darwin_amd64.tar.gz"
-      sha256 "e9a6287e3b3f7d236d09b62ae3ce33271c2c5a0e824c03464d5ac26892c1b354"
+      sha256 "afd4bf24f24cce831ad8f09246dd9d5c073ce90c4be11cbb1dd88167ee5d0e08"
 
       def install
         bin.install "puzzletea"
@@ -19,7 +19,7 @@ class Puzzletea < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/FelineStateMachine/puzzletea/releases/download/v1.3.0/puzzletea_1.3.0_darwin_arm64.tar.gz"
-      sha256 "165a7b351769a71b6777d73f707954d8e1eca5d90eb7acbb2d94f583023c1728"
+      sha256 "dd35b728ee87f7fde63ec863230d1e4ce15c0eabfc5c7717a5166269ac807ebe"
 
       def install
         bin.install "puzzletea"
@@ -30,14 +30,14 @@ class Puzzletea < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/FelineStateMachine/puzzletea/releases/download/v1.3.0/puzzletea_1.3.0_linux_amd64.tar.gz"
-      sha256 "db4939161541dfcae2e1c5ac6b220109e18d1b78cb4c976598c6fa1ab2f1543b"
+      sha256 "d92deea2347eac55d6d38d29a592f194422b718b6ac42aa5d83fb480ec7cbb6c"
       def install
         bin.install "puzzletea"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/FelineStateMachine/puzzletea/releases/download/v1.3.0/puzzletea_1.3.0_linux_arm64.tar.gz"
-      sha256 "7a2f3e1e7aa90dc70c011e5cdc2ee27e6fb9f6ade9e83f85192b32cced17ad8e"
+      sha256 "359c9f1aee6d77362650d4e3ee2a98a02d3eff23b8cd0782d70f8e35d06e6f90"
       def install
         bin.install "puzzletea"
       end
