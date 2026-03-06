@@ -3,7 +3,7 @@ cask "puzzletea" do
   name "puzzletea"
   desc "Terminal-based puzzle game collection built with Bubble Tea"
   homepage "https://github.com/FelineStateMachine/puzzletea"
-  version "1.6.0"
+  version "1.7.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "puzzletea" do
   on_macos do
     on_intel do
       url "https://github.com/FelineStateMachine/puzzletea/releases/download/v#{version}/puzzletea_#{version}_darwin_amd64.tar.gz"
-      sha256 "0967322aa212f00544396c9fe9f5391cb72124788c3fbf9900f6aaaa6262e3a3"
+      sha256 "6759da0f4e560f47433ae07b59d6fba834397f58e55b22bd819c8abea19023ab"
     end
     on_arm do
       url "https://github.com/FelineStateMachine/puzzletea/releases/download/v#{version}/puzzletea_#{version}_darwin_arm64.tar.gz"
-      sha256 "c7b045405c351f1341c13ff929f0907f16708cf8cd6cceb421057114984f2196"
+      sha256 "4c38778249f4fc6a67075f907ee9514c6c8a3592322a918305a0cef75a347116"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/FelineStateMachine/puzzletea/releases/download/v#{version}/puzzletea_#{version}_linux_amd64.tar.gz"
-      sha256 "b0a46ca6cd48b387790716d3fe52daacabc82fd4801ee9f45f8c15eff4bfa66b"
+      sha256 "58cf999001de9b8f7d68df779cc3c538dfab536cd2ccfa3d9353d73b449ed26d"
     end
     on_arm do
       url "https://github.com/FelineStateMachine/puzzletea/releases/download/v#{version}/puzzletea_#{version}_linux_arm64.tar.gz"
-      sha256 "bf41f26950c5332548d592c1eccf875973446e2b8b96928863a0cc3feb238eb1"
+      sha256 "9c8f159ebb911b7e7840c0980872d6e5d05666a60d04c586dd56dccf30c979d3"
     end
   end
 
