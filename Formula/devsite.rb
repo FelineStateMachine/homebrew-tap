@@ -2,12 +2,11 @@ class Devsite < Formula
   desc "Share public work and reach local TCP services"
   homepage "https://dev.site"
   url "https://github.com/FelineStateMachine/devsite/releases/download/v0.2.0/devsite-v0.2.0-aarch64-apple-darwin.tar.gz"
-  version "0.2.0"
   sha256 "e201ae456147a6b640dcf8dbeef3e20a26c02f012ed17257937ef09d24003989"
   license "Apache-2.0"
 
-  depends_on :macos
   depends_on arch: :arm64
+  depends_on :macos
 
   def install
     bin.install "devsite"
