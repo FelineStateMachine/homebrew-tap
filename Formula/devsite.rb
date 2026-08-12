@@ -1,8 +1,8 @@
 class Devsite < Formula
   desc "Share public work and reach local TCP services"
   homepage "https://dev.site"
-  url "https://github.com/FelineStateMachine/devsite/releases/download/v0.3.1/devsite-v0.3.1-aarch64-apple-darwin.tar.gz"
-  sha256 "cb919791f90f41688ea70d92f9ca0853facc11035f4fd1460dfd7c83eb9d97ae"
+  url "https://github.com/FelineStateMachine/devsite/releases/download/v0.4.0/devsite-v0.4.0-aarch64-apple-darwin.tar.gz"
+  sha256 "6d5b80fa5e909852d11c875344d0434bd6bf84752dac59fa4cbd179c5b6786e8"
   license "Apache-2.0"
 
   depends_on arch: :arm64
