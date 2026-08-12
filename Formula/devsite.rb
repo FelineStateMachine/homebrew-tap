@@ -1,7 +1,7 @@
 class Devsite < Formula
   desc "Share public work and reach local TCP services"
   homepage "https://dev.site"
-  license any_of: ["MIT", "Apache-2.0"]
+  license "Apache-2.0"
   head "https://github.com/FelineStateMachine/devsite.git", branch: "main"
 
   depends_on "rust" => :build
